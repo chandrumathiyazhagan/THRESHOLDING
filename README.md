@@ -33,9 +33,9 @@ import cv2
 ```
 ### Read the Image and convert to grayscale
 ```python
-image = cv2.imread("ntr.jpeg",1)
+image = cv2.imread("nature.jpeg",1)
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
-image_gray = cv2.imread("ntr.jpeg",0)
+image_gray = cv2.imread("nature.jpeg",0)
 ```
 ### Use Global thresholding to segment the image
 ```python
